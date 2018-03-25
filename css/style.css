@@ -99,9 +99,6 @@ img {
     }
     .html-img {
         width; 700px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         max-height: 100%
     }
     .work-name {
@@ -114,14 +111,14 @@ img {
 
 @media screen and (max-width: 424px) {
     .html-img {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 125%;
+        max-height: 125%;
     }
     .work-link {
         font-size: 16px;
     }
     .work-img {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 150%;
+        max-height: 150%;
     }
 }
