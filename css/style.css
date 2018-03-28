@@ -1,25 +1,4 @@
- /* this is the header    */
-.logo {
-    float: left;
-    stroke: #000;
-    stroke-width: 3px;
-    fill: #d23;
-    width: 85px;
-    height: 85px;
-}
-
-.header_title {
-    float: right;
-}
-
-div hr {
-    background-color: #2d3c49;
-    height: 3px;
-    width: 100%;
-    float: right;
-}
-
-/* this is the body */
+ /* this is the body */
 body {
     font-family: "Lucida Console", Courier, monospace;
     font-size: 18px;
@@ -41,6 +20,27 @@ body {
 img {
     width: 100%;
     height: 100%;
+}
+
+ /* this is the header    */
+.logo {
+    float: left;
+    stroke: #000;
+    stroke-width: 3px;
+    fill: #d23;
+    width: 85px;
+    height: 85px;
+}
+
+.header_title {
+    float: right;
+}
+
+div hr {
+    background-color: #2d3c49;
+    height: 3px;
+    width: 100%;
+    float: right;
 }
 
 /* this is the main content of the page */
@@ -86,7 +86,7 @@ img {
 }
 
 @media screen and (min-width: 425px) and (max-width: 992px) {
-    .work-img {
+     .work-img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -99,9 +99,7 @@ img {
     }
     .html-img {
         width: 700px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        max-height: 75%
     }
     .work-name {
         padding-top: 16px;
@@ -109,4 +107,24 @@ img {
     .work-link {
         padding-bottom: 26px;
     }
+}
+
+
+@media screen and (max-width: 424px) {
+    .body {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .html-img {
+        width: 0%;
+        height: 0%;
+    }
+    .work-img {
+        height: 90%;
+        width: 90%;
+    }
+    .work-name {
+        font-size: 16px;
+    }
+
 }
